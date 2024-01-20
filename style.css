@@ -362,6 +362,9 @@ transition: all 0.9s ease-in-out;
         justify-content: center;
         align-items: center;    
     }
+    .new_arrivals{
+    padding-left: 0 px;
+    }
 }
 /* new arrivals page end */
 
