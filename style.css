@@ -206,10 +206,11 @@ font-family: 'Poppins', sans-serif;
 }
 /*  photo categories page end  */
 
+
 /* new arrivals page start */
 .new_arrivals{
     padding-bottom: 1em;
-    padding-left: 35px;
+    padding-left: 15px;
 }
 .new_arrivals_border{
     border-bottom: 1px solid rgb(78, 76, 76);
@@ -235,12 +236,12 @@ font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
 .new_arrivals_card{
-    width: 250px;
+    width: 200px;
     transition: all 0.3s ease;
     padding-bottom: 10px;
 }
 .new_arrivals_card:hover{
-    box-shadow: 1px 2px 3px rgba(145, 144, 144, 0.2);
+    box-shadow: 1px 3px 3px rgba(44, 43, 43, 0.2);
 }
 .new_arrivals_card p {
     display: flex;
@@ -253,9 +254,10 @@ font-family: 'Poppins', sans-serif;
 .new_arrivals_card h3{
     font-size: 12px;
     color: black;
-    height: 30px;
+    height: 40px;
     overflow: hidden;
     transition: all 0.5s ease;
+    line-height: 18px;
 }
 .new_arrivals_card h3:hover{
     text-decoration: underline;
@@ -282,14 +284,14 @@ transition: all 0.9s ease-in-out;
     transition: all 0.9s ease-in;
     font-weight: 700;
     letter-spacing: 1px;
-    width: 250px;
+    width: 200px;
 } 
  .new_p_c_btn:hover{
     background: rgb(29, 29, 31);
     color: #fff;
 } 
-.review .fa-star{ */
-    font-size: 14px;
+.review .fa-star{ 
+    font-size: 10px;
     color: orange;
 }
 .price {
@@ -319,30 +321,22 @@ transition: all 0.9s ease-in-out;
     .new_arrivals_border{
         border-bottom: hidden;
     }  
-    .new_arrivals_responsive{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-    }
 }
 @media (max-width:991px){
     .new_arrivals_border{
         border-bottom: hidden;
     }  
-    .new_arrivals_responsive{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
+    .new_p_c_btn{
+        width:180px;
     }
     .new_arrivals_card{
-        width: 220px;
-    }
-    .new_p_c_btn{
-        width: 220px;
+        width: 180px;
     }
 }
 @media (max-width:768px){ 
     .new_arrivals_responsive{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
     }
     .new_arrivals_card{
         width: 330px;
@@ -350,6 +344,12 @@ transition: all 0.9s ease-in-out;
     .new_p_c_btn{
         width: 330px;
     } 
+    .new_p_c_btn{
+        width:200px;
+    }
+    .new_arrivals_card{
+        width: 200px;
+    }
 }
 @media (max-width:576px){ 
     .new_arrivals_responsive{
@@ -362,12 +362,14 @@ transition: all 0.9s ease-in-out;
         justify-content: center;
         align-items: center;    
     }
-    .new_arrivals{
-    padding-left: 0 px;
+    .new_p_c_btn{
+        width:300px;
+    }
+    .new_arrivals_card{
+        width: 300px;
     }
 }
 /* new arrivals page end */
-
 /* METROPÓLIS page start */
 .metropolis_content{
     display: flex;
