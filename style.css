@@ -209,6 +209,7 @@ font-family: 'Poppins', sans-serif;
 /* new arrivals page start */
 .new_arrivals{
     padding-bottom: 1em;
+    padding-left: 25px;
 }
 .new_arrivals_border{
     border-bottom: 1px solid rgb(78, 76, 76);
