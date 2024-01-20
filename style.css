@@ -315,12 +315,28 @@ transition: all 0.9s ease-in-out;
 }
 
 
-
+@media (max-width:1400px){
+    .new_arrivals_border{
+        border-bottom: hidden;
+    } 
+      .new_p_c_btn{
+        width:300px;
+    }
+    .new_arrivals_card{
+        width: 300px;
+    }
+}
 
 @media (max-width:1200px){
     .new_arrivals_border{
         border-bottom: hidden;
     }  
+      .new_p_c_btn{
+        width:220px;
+    }
+    .new_arrivals_card{
+        width: 220px;
+    }
 }
 @media (max-width:991px){
     .new_arrivals_border{
