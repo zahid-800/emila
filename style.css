@@ -379,6 +379,7 @@ transition: all 0.9s ease-in-out;
 }
 .metropolis_content p{
     max-width: 500px;
+     text-align: center;
 }
 .metropolis_btn{
     border: 1px solid rgb(48, 46, 46);
