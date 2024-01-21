@@ -212,17 +212,35 @@ font-family: 'Poppins', sans-serif;
     padding-bottom: 1em;
     padding-left: 15px;
 }
-.new_arrivals_border{
-    border-bottom: 1px solid rgb(78, 76, 76);
-}
+
 .new_arrivals_heading{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
+
 .new_arrivals_heading h1{
    font-size: 32px;
+   text-align: center;
+   position: relative;
+}
+.new_arrivals_heading h1::before{
+    content: " ";
+    width:20%;
+    height: 1px;
+    background-color: black;
+    display: block;
+    left: 10%;
+    top: 50%;
+    position: absolute;
+}
+.new_arrivals_heading h1::after{
+    content: " ";
+    width:20%;
+    height: 1px;
+    background-color: black;
+    display: block;
+    right: 10%;
+    top: 50%;
+    position: absolute;
 }
 .new_arrivals_heading a{
     font-size: 16px;
@@ -343,10 +361,10 @@ transition: all 0.9s ease-in-out;
         border-bottom: hidden;
     }  
     .new_p_c_btn{
-        width:180px;
+        width:200px;
     }
     .new_arrivals_card{
-        width: 180px;
+        width: 200px;
     }
 }
 @media (max-width:768px){ 
@@ -366,6 +384,26 @@ transition: all 0.9s ease-in-out;
     .new_arrivals_card{
         width: 200px;
     }
+     .new_arrivals_heading h1::before{
+        content: " ";
+        width:15%;
+        height: 1px;
+        background-color: black;
+        display: block;
+        left: 1%;
+        top: 50%;
+        position: absolute;
+    }
+    .new_arrivals_heading h1::after{
+        content: " ";
+        width:15%;
+        height: 1px;
+        background-color: black;
+        display: block;
+        right: 1%;
+        top: 50%;
+        position: absolute;
+    }
 }
 @media (max-width:576px){ 
     .new_arrivals_responsive{
@@ -384,6 +422,26 @@ transition: all 0.9s ease-in-out;
     .new_arrivals_card{
         width: 300px;
     }
+    .new_arrivals_heading h1::before{
+    content: " ";
+    width:13%;
+    height: 1px;
+    background-color: black;
+    display: block;
+    left: 1%;
+    top: 50%;
+    position: absolute;
+}
+.new_arrivals_heading h1::after{
+    content: " ";
+    width:13%;
+    height: 1px;
+    background-color: black;
+    display: block;
+    right: 1%;
+    top: 50%;
+    position: absolute;
+}
 }
 /* new arrivals page end */
 /* METROPÓLIS page start */
@@ -418,7 +476,7 @@ transition: all 0.9s ease-in-out;
     overflow: hidden;
     transform: scale(1.1);
 }
-@media (max-width:991px){
+/* @media (max-width:991px){
     .metropolis_responsive{
         display: flex;
         justify-content: center;
@@ -431,5 +489,5 @@ transition: all 0.9s ease-in-out;
         justify-content: center;
         align-items: center;    
     }
-}
+} */
 /* METROPÓLIS page end */
