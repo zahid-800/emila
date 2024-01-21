@@ -697,11 +697,11 @@ transition: all 0.9s ease-in-out;
         height: 30px;
       }
       .all_pr_it_img img {
-        width: 190px;
+        width: 170px;
         height: 180px;
       }
       .all_pr_list_item {
-        width: 190px;
+        width: 17px;
       }
   }
   @media (max-width:300px) {
