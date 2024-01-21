@@ -697,14 +697,14 @@ transition: all 0.9s ease-in-out;
         height: 30px;
       }
       .all_pr_it_img img {
-        width: 230px;
+        width: 210px;
         height: 180px;
       }
       .all_pr_list_item {
-        width: 230px;
+        width: 210px;
       }
   }
-  @media (max-width:450px) {
+  @media (max-width:400px) {
     .all_product_responsive {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
