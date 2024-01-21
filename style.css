@@ -640,11 +640,11 @@ transition: all 0.9s ease-in-out;
       }
 
       .all_pr_it_img img {
-        width: 185px;
+        width: 200px;
         height: 170px;
       }
       .all_pr_list_item {
-        width: 185px;
+        width: 200px;
       }
       .all_pr_list_heading h3 {
         font-size: 10px;
